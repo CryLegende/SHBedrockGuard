@@ -7,4 +7,4 @@ pseudos:
   # Active le refus des clients Java.
   actif: true
   # Doit rester identique à username-prefix dans la configuration de Floodgate.
-  prefixe: "BE_"
+  prefixe: "."
