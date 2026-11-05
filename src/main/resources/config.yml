@@ -1,0 +1,10 @@
+# SHBedrockGuard : réserve le préfixe des pseudos Bedrock aux joueurs passés par Geyser et Floodgate.
+# Un client Java qui se connecte avec ce préfixe est refusé par le proxy.
+# Commandes : aucune.
+# Permissions : aucune.
+
+pseudos:
+  # Active le refus des clients Java.
+  actif: true
+  # Doit rester identique à username-prefix dans la configuration de Floodgate.
+  prefixe: "BE_"
