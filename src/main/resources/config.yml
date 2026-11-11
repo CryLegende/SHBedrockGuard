@@ -1,7 +1,13 @@
 # SHBedrockGuard : réserve le préfixe des pseudos Bedrock aux joueurs passés par Geyser et Floodgate.
 # Un client Java qui se connecte avec ce préfixe est refusé par le proxy.
-# Commandes : aucune.
-# Permissions : aucune.
+#
+# Commande : /shbedrockguard
+#   reload   Relit config.yml et messages.yml. Si l'un des deux est illisible, l'ancienne configuration reste en place
+#            et le message indique le fichier et l'erreur. Tout se recharge à chaud.
+#
+# Permissions (nœuds à accorder dans le LuckPerms du proxy, la console passe toujours) :
+#   shbedrockguard.admin          Toutes les sous-commandes.
+#   shbedrockguard.admin.reload   /shbedrockguard reload
 
 pseudos:
   # Active le refus des clients Java.

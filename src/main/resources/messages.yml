@@ -1,2 +1,13 @@
-# Message affiché au client Java refusé. Couleurs avec &.
+# Textes de SHBedrockGuard. Couleurs avec &.
+
+# Message affiché au client Java refusé.
 refus: "&7&l« &c&lSH &8&l» &7Les pseudos commençant par un &cpoint &7sont réservés aux joueurs &cBedrock&7."
+
+# /shbedrockguard sans argument ou avec une sous-commande inconnue. {subcommands} : sous-commandes permises à l'expéditeur.
+usage: "&7&l« &c&lSH &8&l» &7Utilisation : &c/shbedrockguard <{subcommands}>"
+
+# /shbedrockguard reload réussi. {prefixe} : préfixe réservé, {etat} : garde active ou inactive.
+reload-ok: "&7&l« &a&lSH &8&l» &7Configuration &arechargée&7 : préfixe &a{prefixe}&7, garde {etat}&7."
+
+# /shbedrockguard reload refusé, l'ancienne configuration reste en place. {fichier} : fichier fautif, {erreur} : cause.
+reload-error: "&7&l« &c&lSH &8&l» &7Rechargement &crefusé&7 ({fichier} : {erreur}). L'ancienne configuration reste en place."
